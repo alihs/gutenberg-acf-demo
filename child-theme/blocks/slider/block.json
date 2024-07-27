@@ -1,0 +1,24 @@
+{
+    "name": "theme/full-height-banner",
+    "title": "Full Height Banner",
+    "description": "Full Height Banner",
+    "category": "widgets",
+    "icon": "cover-image",
+    "keywords": [
+        "banner"
+    ],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "slider.php"
+    },
+    "supports": {
+        "anchor": true
+    },
+    "script": [
+        "file:./swiper-bundle.js",
+        "file:./banner.js"
+    ],
+    "style": [
+        "file:./swiper.min.css"
+    ]
+}
